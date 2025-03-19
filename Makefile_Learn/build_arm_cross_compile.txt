@@ -1,0 +1,9 @@
+Linker File
+
+build file.c
+C:/GCC_THUC/bin/arm-none-eabi-gcc -c main.c -o main.o
+
+read file.o
+C:/GCC_THUC/bin/arm-none-eabi-objdump.exe -h main.o
+
+https://gcc.gnu.org/onlinedocs/gcc-9.3.0/gcc/Common-Variable-Attributes.html#Common-Variable-Attributes
